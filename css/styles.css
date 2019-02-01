@@ -1,0 +1,177 @@
+/* Menu */
+nav.bg-light {
+  background-color: #00A388 !important;
+}
+img.navbar-brand {
+        max-width: 5%;
+        height: auto;
+}
+body.all{
+        background-image: url("/cp1/images/plastic1crop.jpg");
+	background-size: 50em auto;
+        font-family: 'ZCOOL XiaoWei', serif;
+}
+body.resources{
+	background-color: #BEEB9F;
+	font-family: 'ZCOOL XiaoWei', serif;
+}
+h1{
+	background-color: #BEEB9F;
+	margin: auto;
+	width: 50%;
+	border: 3px;
+	padding: 10px;
+	margin-top: 2em;
+	text-align: center;
+}
+.about-image{
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	background-color: white;
+}
+.home-article{
+	text-align: center;
+	background-color: #BEEB9F;
+	margin: auto;
+	margin-bottom: 3em;
+	width: 50%;
+	border: 3px;
+	padding: 10px;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #E5E5E5;
+  color: #8D857A;
+  text-align: center;
+  max-height: 5%
+}/*
+.grid-container{
+	grid-gap: 1em;
+	display: inline-grid;
+}
+.grid-item{
+	text-align: center;
+	background-color: #F2E1AC;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 6em;
+	height: auto;
+}*/
+/* Box-sizing reset: //w3bits.com/?p=3225 */
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+/* The Masonry Container */
+.masonry {
+  column-gap: 1em;
+  margin: auto;
+  margin-top: 3em;
+  max-width: 70em;
+  margin-bottom: 1em;
+  break-inside: avoid; 
+}
+
+/* The Masonry Brick */
+.item {
+  background: #fffff0;
+  margin: 0 0 1em;
+  max-width: 10em;
+  height: auto;
+  padding: .5em;
+}
+
+/* Masonry on large screens */
+@media only screen and (min-width: 1024px) {
+  .masonry {
+    column-count: 6;
+  }
+}
+
+/* Masonry on medium-sized screens */
+@media only screen and (max-width: 1023px) and (min-width: 768px) {
+  .masonry {
+    column-count: 3;
+  }
+}
+
+/* Masonry on small screens */
+@media only screen and (max-width: 767px) and (min-width: 540px) {
+  .masonry {
+    column-count: 2;
+  }
+}
+img{
+	max-width: 25%;
+	height: auto;
+}
+img.portfolio{
+        max-width:100%;
+        height: auto;
+        display: inline-block;
+}
+/* Container holding the image and the text */
+.container {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  text-align: center;
+  background-color: #003840;
+  color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  max-width:100%;
+  height: auto;
+  display: inline-block;
+
+}
+a{
+        color: #767A7F;
+}
+a:hover{
+        color: black;
+}
+a.resources{
+        color: white;
+}
+a.resources:hover{
+        color: #767A7F;
+}
+
+/*
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: auto;
+  width: 4em;
+  height: auto;
+  margin-left: 1em;
+  margin-right: 1em;
+  border: 3px;
+  padding: 10px;
+}/*
+.grid-item{
+  text-align: center;
+  background-color: #F2E1AC;
+  margin-left: 1em;
+  margin-right: 1em;
+  margin-top: 1em;
+  margin-bottom: 1em; 
+  width: 4em; 
+}*/
+
+/*font-family: 'ZCOOL XiaoWei', serif;
+font-family: 'Josefin Slab', serif;
+font-family: 'Glegoo', serif;
+font-family: 'Montserrat Alternates', sans-serif;*/
